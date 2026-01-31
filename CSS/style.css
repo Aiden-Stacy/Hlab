@@ -1,0 +1,451 @@
+/*  Header  */
+.header{
+    position: fixed;
+    z-index: 999;
+    background-color: white;
+    width: 100%;
+    align-items: center;    /*căn giữa theo chiều dọc*/
+    opacity: 0.9; /* làm mờ */
+}
+
+.top_header{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: space-between;
+}
+
+.search_header{
+    align-content: center;
+}
+
+.search_header a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.search_header img{
+    max-width: 32px;
+    height: 30px;
+}
+
+.logo_top_header img{
+    max-height: 85px;
+    width: auto;
+}
+
+.search_icon{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.user{
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+/*  Page chính */
+
+.Page{ 
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    background-color: #E0FFFF;
+    flex-wrap: wrap;
+}
+
+.picture{
+    max-width: 100%;
+    object-fit: cover;  /* cân = hình */
+}
+
+.section img{
+    width: 100%;
+    height: auto;
+}
+
+.Page_2{
+    position: relative;  /* cho phép đặt chữ chồng lên */
+    background-image: url('../PAGE/Thiet-ke-chua-co-ten-60.png'); /* ảnh nền */
+    height: 100%;
+    width: auto;
+    background-position: center;
+    margin-left: auto;
+    padding: 100px;
+}
+
+.noi_dung_page_2{
+    color: #226655;
+    max-width: 400px;
+}
+
+.noi_dung_page_2 h2{
+    max-width: 400px;
+}
+
+.noi_dung_page_2 h6{
+    max-width: 400px;
+}
+
+.page_4{
+    display: flex;
+    color: #226655;
+}
+
+.noi_dung_page_4{
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.colum_page_4{
+    width: 100%;
+}
+
+.img_page_4 img{
+    width: 100%;
+    height: auto;
+    padding: 100px;
+}
+
+.line_page_4{
+    display: block;
+    height: 6px;
+    margin: 1em 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.page_5_noi_dung h6{
+    margin-top: 10px !important;
+}
+
+.page_5_noi_dung{
+    color: #226655;
+    text-align: center;
+    padding: 20px;
+}
+
+.page_5 img{
+    width: 85%;
+    height: auto;
+    border-radius: 30px;
+}
+
+.page_5 p{
+    max-width: 90%;
+}
+
+.page_7{
+    align-items: center;
+    display: flex;
+    color: #226655;
+}
+
+.Why{
+    padding-top: 70px;
+    justify-items: center;
+    justify-content: space-between;
+    color: #226655;
+}
+
+.tieu_de_why{
+    padding-bottom: 50px;
+}
+
+.camket{
+    padding-top: 70px;
+}
+
+.tieu_de_camket{
+    padding-bottom: 50px;
+}
+
+.picture_item{
+    display: flex;
+}   
+
+.picture_item_colum{
+    width: 25%;
+    justify-content: space-between;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.picture_item_colum img{
+    max-height: 90px;
+    object-fit: cover;  /* cân = hình */
+}
+
+.camket{
+    justify-items: center;
+    justify-content: space-between;
+    color: #226655;
+}
+
+.space_camket{
+    padding-bottom: 140px;
+}
+
+.Page_end{
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #DCE6EB; 
+}
+
+.thong_tin_co_ban{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.colum a{
+    color: black;
+    text-decoration: none;
+} 
+
+.colum img{
+    max-width: 23px;
+}
+
+.thong_tin_end{
+    background-color: #DCE6EB; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.line{
+    display: block;
+    height: 3px;
+    margin: 1em 0;
+    max-width: 30px;
+    width: 100%;
+}
+
+.bao_mat{
+    padding-bottom: 30px;
+}
+
+.line_page_end{
+    width: 100%;
+}
+
+.logo_end{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.colum_end{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 25%;
+}
+
+.colum_end img{
+    align-items: center;
+    width: auto;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.width_end{
+    display: flex;
+    max-width: 93%;
+}
+
+/*.colum_noidung{
+    font-family: 'Times New Roman', Times, serif;
+}*/
+
+.BCT{
+    height: 70px !important;
+    width: auto !important;
+}
+
+.Copyright{
+    padding-top: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    justify-items: center;
+    padding-bottom: 5px;
+}
+
+.line_page{
+    width: 100%;
+}
+
+
+/*hover: di chuột vào phàn tử và chạy*/
+.txt1:hover{
+    color: black !important;
+    border-bottom: 3px solid green;
+    padding-bottom: 5px;
+}
+
+.backtotop{
+    display: block;
+    width: 50px;    
+    height: 50px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1; /* lớp trên cùng */
+}
+
+.backtotop img{
+    width: 50px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+/* Không hiện */
+.header480{
+    display: none;
+}
+.page_5_480{
+    display: none;
+}
+
+
+/* CHỈNH KÍCH THƯỚC MÀN HÌNH */
+
+/* Áp dụng cho màn hình có chiều rộng từ 768px đến 1024px */
+@media (max-width: 821px) {
+    .header{
+        display: none;
+    }
+    .header480{
+        display: flex;
+        position: fixed;
+        z-index: 999;
+        background-color: white;
+        width: 100%;
+        align-items: center;    /*căn giữa theo chiều dọc*/
+        opacity: 0.9; /* làm mờ */
+    }
+    .top_header480{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    .top_header480 img{
+        max-width: 32px;
+        height: auto;
+    }
+    .picture_item{
+        display: block;
+    }
+    .logo_end{
+        display: block;
+    }
+    .backtotop{
+        display: none;
+    }
+    .Page_2{
+        display: flex;
+        position: relative;  /* cho phép đặt chữ chồng lên */
+        background-image: url('../PAGE/Thiet-ke-chua-co-ten-60.png'); /* ảnh nền */
+        height: 100%;
+        width: auto;
+        background-position: center;
+        margin-left: auto;
+        padding: 10px
+    }
+    .noi_dung_page_2{
+        color: #226655;
+        max-width: 400px;
+    }
+
+    .noi_dung_page_2 h2{
+        max-width: 400px;
+    }
+    .noi_dung_page_2 h6{
+        max-width: 400px;
+    }
+    .page_4{
+        display: block;
+    }
+    .noi_dung_page_4{
+        padding: 10px;
+    }
+    .img_page_4 img{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+    /* .page_5{
+        display: none;
+    }
+    .page_5_480{
+        display: block;
+        width: 100%;
+        padding-top: 70px;
+    }  
+    .page_5_480_noi_dung h6{
+        margin-top: 10px !important;
+    }
+
+    .page_5_480_noi_dung{
+        color: #226655;
+        text-align: center;
+        padding: 20px;
+    }
+    .row{
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .page_5_480 img{
+        justify-items: center;
+        max-width: 100%;
+        height: auto;
+        border-radius: 30px;
+    }
+    .page_5_480 p{
+        max-width: 80%;
+    } */
+    .page_7{
+        display: block;
+        padding: 10px;
+    }
+
+    .Why{
+        display: block;
+    }
+    .tieu_de_why{
+        padding: 20px;
+        text-align: center;
+    }
+    .picture_item_colum{
+        width: 100%;
+        padding: 10px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 40px;
+    }
+    .camket{
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    .tieu_de_camket{
+        padding-top: 60px;
+    }
+    .thong_tin_co_ban{
+        display: block;
+    }
+    .thong_tin_end{
+        display: block;
+    }
+    .colum_end{
+        display: block;
+        padding: 10px;
+        width: 100%;
+    }
+}
